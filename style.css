@@ -1,0 +1,211 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
+  margin: auto;
+}
+/* header styling ------------------------------ */
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#title {
+  display: flex;
+}
+header img {
+  display: inline-block;
+}
+
+#title > img {
+  width: 50px;
+  height: 50px;
+}
+#title-right {
+  margin-left: 10px;
+}
+
+#title-right h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+}
+#title-right p {
+  padding-left: 5px;
+  font-size: 9px;
+  color: grey;
+}
+
+#links {
+  display: flex;
+  
+}
+
+#links-left {
+  margin: auto;
+  margin-right: 10px;
+}
+
+#links-right {
+  margin: auto;
+}
+
+/* main ------------------------------------- */
+#divider-top {
+  margin-top: 10px;
+  background-image: url('img/hr-img.png');
+  height: 10px;
+  margin-bottom: 40px;
+}
+
+main img {
+  display: inline-block;
+}
+
+main > h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#posted-print {
+  display: flex;
+  justify-content: space-between;
+}
+
+#posted-print > p {
+  margin-top: 5px;
+  color: grey;
+  font-size: 12px;
+}
+
+#print {
+  display: flex;
+}
+
+#print > img {
+  margin: auto;
+}
+
+#print > div {
+  color: grey;
+  font-size: 12px;
+  margin: auto;
+  margin-left: 3px;
+}
+
+#divider-bottom {
+  margin-top: 30px;
+  background-image: url('img/hr-img.png');
+  height: 10px;
+}
+
+#chocolate-pizza {
+  margin-top: 30px;
+  width: 100%;
+}
+
+#para {
+  margin-top: 30px;
+}
+
+#para p {
+  margin-bottom: 35px;
+  text-indent: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: grey;
+}
+
+#list {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-image: url('img/list-bg.png');
+  display: flex;
+  justify-content: space-around;
+}
+
+#list li {
+  padding: 5px;
+}
+#list input {
+  margin-right: 10px;
+}
+
+.strikethrough:checked + span {
+  text-decoration: line-through;
+}
+
+#profile {
+  display: flex;
+  margin-top: 25px;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+#profile img {
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+#profile-desc {
+  margin-left: 15px;
+  width: 65%;
+}
+
+#profile-desc h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#profile-desc p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+#button {
+  position: absolute;
+  right: 0px;
+  padding: 15px 30px;
+  color: white;
+  background-color: rgb(240, 111, 111);
+}
+
+#small-logo-line {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#grey-line-left {
+  background-color: grey;
+  height: 1px;
+  position: relative;
+  top: 18px;
+  width: 48%;
+}
+
+#grey-line-right {
+  background-color: grey;
+  height: 1px;
+  position: relative;
+  top: 18px;
+  width: 48%;
+}
+
+#small-logo {
+  display: inline-block;
+}
+
+/* footer styling */
+footer {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+footer p {
+  color: grey;
+  padding: 5px;
+}
